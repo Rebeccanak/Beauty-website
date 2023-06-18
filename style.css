@@ -1,0 +1,104 @@
+body{
+    padding: 2px;
+    background-color:#e2c1b5;
+    
+}
+h4{
+    color:#523b33;
+    margin-left: 25%;
+    font-size: 60px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+header #imageone{
+ width: 500px;
+ /* height: 300px; */
+ border-radius: 100px;
+ margin-top: 80px;
+ margin-right: 20px;
+ 
+}
+header .para {
+    margin-left: 39%;
+    margin-top: -280px;
+    font-size: 25px;
+   color: azure;
+}
+header #imagetwo{
+    margin-left: 63%;
+    width: 480px;
+    margin-top: -24%;
+    border-radius: 100px;
+    font-style: italic;
+    }
+    #videos{
+        width: 60%;
+        border-radius: 50px;
+        margin-left: 250px;
+        
+    }
+    .vid h5{
+    margin-top: -18%;
+    margin-left: 36%;
+    font-size: 40px;
+    color: red;
+    
+    }
+    .vid h5 button{
+        padding: 27px 65px;
+        margin-left: 8px;
+        margin-top: -50px;
+        border-radius: 40px;
+        background-color:#e2c1b5f1;
+        font-size: 30px;
+        
+    
+    }
+    .collection{
+        width: 32%;
+        display: flex;
+        
+        
+    }
+    #img3, #img4, #img5, #img6, #img7, #img8{
+        margin: 13px;
+        border-radius: 40px;
+
+    }
+    h3{
+        font-size: 40px;
+        color: aliceblue;
+        margin-left: 40%;
+
+    }
+        
+header .para p{
+    animation: slideTop 8s ease forwards;
+    animation-delay: 1.3s;
+    color:#523b33;
+
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+
+}
+/* }
+ #videos video {
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    margin-left: 100px;
+     */
+
+    
